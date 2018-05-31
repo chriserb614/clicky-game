@@ -1,0 +1,25 @@
+.card {
+    background: blue;
+    margin-left: 50px;
+    border: 20px;
+    border-color: black;
+    border-radius: 10px;
+    height: 200px;
+    margin: 1rem;
+    position: relative;
+    width: 200px;
+    text-align: left;
+  }
+  
+  .card > .img-container {
+    border-radius: 10px;
+    height: 100%;
+    overflow: hidden;
+    text-align: center;
+    background: gray;
+  }
+  
+  .card > .img-container > img {
+    width: 80%;
+    height: 200px;
+  }
